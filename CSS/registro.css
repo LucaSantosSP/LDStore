@@ -38,6 +38,10 @@ main form{
     justify-content: center;
 }
 
+#pForm{
+    margin-left: 0%;
+}
+
 main form label{
     font-size: 1.3em;
 }
@@ -61,6 +65,14 @@ main form #botCadastro{
     border: none;
     border-radius: 6px;
     text-align: center;
+    width: 300px;
+    margin-left: 125px;
+}
+
+main form #botCadastro:hover{
+    color: rgb(185, 185, 185);
+    background-color: #b61b23;
+    cursor: pointer;
 }
 
 /*--------------------------------------------*/

@@ -16,7 +16,7 @@
         <h1>Cadastro</h1>
         <p>Realize seu cadastro é rápido e fácil e tenha a possibilidade de adquirir nossos produtos</p>
         <form>
-            <p>Preencha os campos abaixo com as informações necessárias *</p>
+            <p id="pForm">Preencha os campos abaixo com as informações necessárias *</p>
 
             <label for="iNome">Nome&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
             <input type="text" name="nNome" id="iNome" required placeholder="Ex: Fulano"><br>
@@ -49,7 +49,7 @@
         <h3>Siga-nos nas redes sociais</h3>
         <img id="sociais" src="Imagens/05.png" alt="Logodas redes sociais">
 
-        <p>Copyright © 2022-2022 LDS.com.br LTDA</p>
+        <p>Site desenvolvido por Lucas Santos e David Cordeiro</p>
     </footer>
 </body>
 </html>
