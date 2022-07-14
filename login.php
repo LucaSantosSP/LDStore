@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LDStore | Cadastro</title>
+    <title>LDStore | Login</title>
     <link rel="stylesheet" href="CSS/cadastro.css">
 
 </head>
@@ -13,16 +13,10 @@
 
     </header>
     <main>
-        <h1>Cadastro</h1>
-        <p>Realize seu cadastro é rápido e fácil e tenha a possibilidade de adquirir nossos produtos</p>
+        <h1>Entrar</h1>
+        <p>Realize seu login para uma melhor experiência</p>
         <form>
             <p id="pForm">Preencha os campos abaixo com as informações necessárias *</p>
-
-            <label for="iNome">Nome&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
-            <input type="text" name="nNome" id="iNome" required placeholder="Ex: Fulano"><br>
-
-            <label for="iSobrenome">Sobrenome&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
-            <input type="text" name="nSobrenome" id="iSobrenome" required placeholder="Ex: Da Silva"><br>
 
             <label for="iEmail">E-mail&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
             <input type="text" name="eEmail" id="iEmail" required placeholder="Ex: fulano@gmail.com"><br>
@@ -30,12 +24,9 @@
             <label for="iSenha">Senha&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
             <input type="text" name="eSenha" id="iSenha" required placeholder="*************"><br>
 
-            <label for="iRepSenha">Repetir Senha&nbsp&nbsp</label>
-            <input type="text" name="eRepSenha" id="iRepSenha" required placeholder="*************"><br>
-            
-            <p id="logar">Já possui uma conta? <a href="login.php">Entre agora</a></p>
+            <p id="logar">Ainda não possui uma conta? <a href="cadastro.php">Registre-se agora</a></p>
 
-            <input type="submit" value="Cadastre-se" id="botCadastro">
+            <input type="submit" value="Entrar" id="botCadastro">
 
         </form>
     </main>

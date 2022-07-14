@@ -69,6 +69,25 @@ main form #botCadastro{
     margin-left: 125px;
 }
 
+#logar{
+    font-size: 1em;
+    margin-top: -0px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+#logar a{
+    color: #b61b23;
+}
+
+#logar a:hover{
+    color: #ffffff;
+}
+
+input:nth-last-child(1){
+    margin-top: 30px;
+}
+
 main form #botCadastro:hover{
     color: rgb(185, 185, 185);
     background-color: #b61b23;
@@ -111,4 +130,12 @@ footer p{
 
 #sociais{
     width: 150px;
+}
+
+p:last-child a{
+    color: #ffffff;
+}
+
+p:last-child a:hover{
+    color: #000000;
 }
